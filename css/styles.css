@@ -335,6 +335,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-list-item:hover {
@@ -381,6 +382,7 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--light-slate);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list-items-link:hover,
