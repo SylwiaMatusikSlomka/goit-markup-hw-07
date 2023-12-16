@@ -536,7 +536,7 @@ body {
     overflow: hidden;
 }
 
-.portfolio-list-item-element-image-paragraph:hover {
+.portfolio-list-item-element-image-paragraph {
     position: absolute;
     top: 0;
     font-size: 16px;
