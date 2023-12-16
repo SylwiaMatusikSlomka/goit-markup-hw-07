@@ -556,11 +556,6 @@ body {
     transform: translateY(0%);
 }
 
-.portfolio-list-item-element-image-paragraph:hover,
-.portfolio-list-item-element-image-paragraph:focus {
-    transform: translateY(0%);
-}
-
 .portfolio-list-item-description {
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
