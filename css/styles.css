@@ -551,7 +551,8 @@ body {
     transform: translateY(100%);
 }
 
-.portfolio-list-item-element-link:hover .portfolio-list-item-element-image-paragraph {
+.portfolio-list-item-element-link:hover .portfolio-list-item-element-image-paragraph,
+.portfolio-list-item-element-link:focus .portfolio-list-item-element-image-paragraph {
     transform: translateY(0%);
 }
 
