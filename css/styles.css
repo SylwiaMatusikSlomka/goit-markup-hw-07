@@ -554,6 +554,7 @@ body {
     color: var(--cloud);
     padding: 40px 32px;
     background-color: var(--iris);
+    color: var(--iris);
     height: 100%;
     width: 100%;
     transform: translateY(100%);
@@ -564,6 +565,7 @@ body {
 .portfolio-list-item-element-link:focus .portfolio-list-item-element-wrapper-paragraph {
     transform: translateY(0%);
     box-sizing: border-box;
+    color: var(--white);
 }
 
 .portfolio-list-item-description {
