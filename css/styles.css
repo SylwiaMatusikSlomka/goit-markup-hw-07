@@ -394,6 +394,7 @@ body {
 
 .customers-list-items-icon {
     fill: currentColor;
+    border: 5px;
 }
 
 .customers-list-items-link:hover .customers-list-items-icon,
