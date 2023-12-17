@@ -396,7 +396,8 @@ body {
     fill: currentColor;
 }
 
-.customers-list-items-icon:hover {
+.customers-list-items-link:hover .customers-list-items-icon,
+.customers-list-items-link:focus .customers-list-items-icon {
     fill: var(--ocean);
 }
 
