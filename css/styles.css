@@ -554,7 +554,6 @@ body {
     color: var(--cloud);
     padding: 40px 32px;
     background-color: var(--iris);
-    color: var(--iris);
     height: 100%;
     width: 100%;
     transform: translateY(100%);
