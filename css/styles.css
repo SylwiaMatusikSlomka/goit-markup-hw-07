@@ -389,6 +389,7 @@ body {
 .customers-list-items-link:focus {
     border-color: var(--ocean);
     color: var(--ocean);
+    fill: var(--ocean);
 }
 
 .customers-list-items-icon {
