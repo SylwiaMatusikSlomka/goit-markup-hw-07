@@ -396,6 +396,10 @@ body {
     fill: currentColor;
 }
 
+.customers-list-items-icon:hover {
+    fill: var(--ocean);
+}
+
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
