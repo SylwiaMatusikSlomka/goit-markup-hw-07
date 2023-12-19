@@ -410,10 +410,11 @@ body {
 .footer-container {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-container-logo {
-    margin-right: 120px;
+    width: 264px;
 }
 
 .footer-link {
@@ -469,23 +470,27 @@ body {
 
 .footer-form {
     display: flex;
-    flex-direction: row;
-}
-
-.footer-form-e-mail-section {
-    display: flex;
     flex-direction: column;
+    width: 453px;
+    height: 80px;
 }
 
 label {
     display: flex;
-    flex-direction: column;
-    color: var(--white);
+    flex-direction: row;
+}
+
+.footer-form-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 ::placeholder {
     color: var(--white);
     size: 12px;
+    padding: 16px;
 }
 
 .footer-social-media-input {
@@ -493,11 +498,14 @@ label {
     height: 40px;
     background-color: var(--navy-blue);
     box-shadow: 0px 4px 4px 0px #00000026;
-    border: 1px;
-    border-color: var(--white);
+    border: 1px solid var(--white);
+    color: var(--white);
 }
 
 .footer-social-media-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--iris);
     color: var(--white);
     line-height: 24px;
@@ -507,7 +515,8 @@ label {
     font-weight: 500;
     size: 16px;
     padding: 8px, 24px;
-    gap: 16px
+    gap: 16px;
+    border: none;
 }
 
 .footer-form-submit-btn-icon {
