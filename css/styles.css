@@ -467,6 +467,53 @@ body {
     fill: var(--cloud);
 }
 
+.footer-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-form-e-mail-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+::placeholder {
+    color: var(--white);
+    size: 12px;
+}
+
+.footer-social-media-input {
+    width: 264px;
+    height: 40px;
+    background-color: var(--navy-blue);
+    box-shadow: 0px 4px 4px 0px #00000026;
+    border: 1px;
+    border-color: var(--white);
+}
+
+.footer-social-media-btn {
+    background-color: var(--iris);
+    color: var(--white);
+    line-height: 24px;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    font-weight: 500;
+    size: 16px;
+    padding: 8px, 24px;
+    gap: 16px
+}
+
+.footer-form-submit-btn-icon {
+    fill: var(--white)
+}
+
 
 /* Portfolio */
 
@@ -481,6 +528,7 @@ body {
     gap: 24px;
     margin-bottom: 72px;
     list-style-type: none;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-filtr-button {
