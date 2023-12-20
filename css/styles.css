@@ -490,7 +490,6 @@ label {
 ::placeholder {
     color: var(--white);
     size: 12px;
-    padding: 16px;
 }
 
 .footer-social-media-input {
@@ -500,6 +499,7 @@ label {
     box-shadow: 0px 4px 4px 0px #00000026;
     border: 1px solid var(--white);
     color: var(--white);
+    padding-left: 16px;
 }
 
 .footer-social-media-btn {
