@@ -515,21 +515,26 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     background-color: var(--iris);
     color: var(--white);
-    line-height: 24px;
+    line-height: 1.5px;
     align-items: center;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     font-weight: 500;
     size: 16px;
     padding: 8px, 24px;
     gap: 16px;
     border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .footer-form-submit-btn-icon {
     fill: var(--white);
+    margin-left: 16px;
 }
 
 
