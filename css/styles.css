@@ -880,6 +880,14 @@ label {
     fill: transparent;
 }
 
+.privacy-policy-icon:checked+.privacy-policy-span {
+    background-color: var(--ocean);
+}
+
+.privacy-policy-icon:checked+.privacy-policy-icon {
+    fill: var(var(--cloud))
+}
+
 .modal-window-form-btn {
     position: absolute;
     top: 380px;
@@ -889,7 +897,7 @@ label {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     color: var(--white);
     background-color: var(--iris);
@@ -897,5 +905,5 @@ label {
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
