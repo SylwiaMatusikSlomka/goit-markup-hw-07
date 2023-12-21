@@ -765,7 +765,7 @@ label {
 }
 
 .modal-window-form-textarea::placeholder {
-    color: black;
+    color: var(--navy-blue);
     size: 12px;
 }
 
