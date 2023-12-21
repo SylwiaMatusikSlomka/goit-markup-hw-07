@@ -762,6 +762,7 @@ label {
 }
 
 .modal-window-form-label {
+    display: block;
     width: 34px;
     height: 14px;
     font-weight: 400;
@@ -769,6 +770,12 @@ label {
     color: var(--light-slate);
     line-height: 14px;
     letter-spacing: 0.04em;
+    line-height: 1.17;
+    margin-bottom: 4px;
+}
+
+.modal-window-form-div-input-svg {
+    position: relative;
 }
 
 .modal-window-form-input {
