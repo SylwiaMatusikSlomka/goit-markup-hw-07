@@ -757,6 +757,10 @@ label {
     left: 24px;
 }
 
+.modal-window-form-div-label {
+    margin-bottom: 8px;
+}
+
 .modal-window-form-label {
     width: 34px;
     height: 14px;
