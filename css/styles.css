@@ -790,6 +790,11 @@ label {
     position: relative;
 }
 
+.modal-window-form-div-input-svg:hover .footer-form-submit-btn-icon,
+.modal-window-form-div-input-svg:focus .footer-form-submit-btn-icon {
+    fill: var(--iris);
+}
+
 .modal-window-form-input {
     width: 360px;
     height: 40px;
