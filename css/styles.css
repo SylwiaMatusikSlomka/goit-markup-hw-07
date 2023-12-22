@@ -749,13 +749,6 @@ label {
 .modal-window-form {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    align-content: flex-start;
-    position: absolute;
-    width: 360px;
-    height: 336px;
-    top: 112px;
-    left: 24px;
 }
 
 .modal-window-form-div-label {
@@ -913,9 +906,7 @@ label {
 }
 
 .modal-window-form-btn {
-    position: absolute;
-    top: 450px;
-    left: 95px;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
