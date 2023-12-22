@@ -886,12 +886,18 @@ label {
     fill: transparent;
 }
 
-.privacy-policy-icon:checked+.privacy-policy-span {
+
+/* .privacy-policy-icon:checked+.privacy-policy-span {
     background-color: var(--ocean);
 }
 
 .privacy-policy-icon:checked+.privacy-policy-icon {
     fill: var(var(--cloud))
+} */
+
+.modal-window-form-checkbox:checked {
+    background-color: #404BBF;
+    border: none;
 }
 
 .modal-window-form-btn {
