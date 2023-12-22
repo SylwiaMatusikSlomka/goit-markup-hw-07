@@ -864,11 +864,11 @@ label {
 }
 
 .privacy-policy {
-    display: block;
-    gap: 8px;
+    /* gap: 8px;
     width: 360px;
     height: 16px;
-    margin-top: 10px;
+    margin-top: 10px; */
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
