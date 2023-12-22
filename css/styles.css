@@ -793,7 +793,8 @@ label {
 }
 
 .modal-window-form-input {
-    width: 360px;
+    box-sizing: border-box;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -821,7 +822,8 @@ label {
 }
 
 .modal-window-form-textarea {
-    width: 360px;
+    box-sizing: border-box;
+    width: 100%;
     height: 120px;
     border-radius: 4px;
     font-size: 12px;
