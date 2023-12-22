@@ -836,9 +836,10 @@ label {
     margin-bottom: 24px;
 }
 
-.modal-window-form-checkbox {
+
+/* .modal-window-form-checkbox {
     visibility: hidden;
-}
+} */
 
 .privacy-policy-paragraf {
     font-weight: 400;
