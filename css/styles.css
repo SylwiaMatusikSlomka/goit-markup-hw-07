@@ -896,8 +896,8 @@ label {
     fill: var(var(--cloud))
 } */
 
-.modal-window-form-checkbox:checked .privacy-policy-span {
-    background-color: #404BBF;
+input[type="checkbox"]:checked+label .privacy-policy-span {
+    background-color: var(--ocean);
     border: none;
 }
 
