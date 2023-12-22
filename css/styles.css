@@ -738,14 +738,6 @@ label {
 }
 
 .modal-window-paragraf {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    justify-content: center;
-    width: 360px;
-    height: 24px;
-    top: 72px;
-    left: 24px;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
