@@ -791,8 +791,13 @@ label {
     position: relative;
 }
 
-.modal-window-form-input:hover .footer-form-submit-btn-icon,
+
+/* .modal-window-form-input:hover .footer-form-submit-btn-icon,
 .modal-window-form-input:focus .footer-form-submit-btn-icon {
+    fill: var(--iris);
+} */
+
+.modal-window-form-input:focus+.modal-window-form-div-input-svg svg {
     fill: var(--iris);
 }
 
