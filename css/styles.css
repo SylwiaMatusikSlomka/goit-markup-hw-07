@@ -766,9 +766,6 @@ label {
 }
 
 .modal-window-form-label {
-    /* width: 34px;
-    height: 14px;
-    font-weight: 400; */
     color: var(--light-slate);
     display: block;
     font-size: 12px;
@@ -780,12 +777,6 @@ label {
 .modal-window-form-div-input-svg {
     position: relative;
 }
-
-
-/* .modal-window-form-input:hover .footer-form-submit-btn-icon,
-.modal-window-form-input:focus .footer-form-submit-btn-icon {
-    fill: var(--iris);
-} */
 
 .modal-window-form-input:focus+.footer-form-submit-btn-icon,
 .modal-window-form-input:hover+.footer-form-submit-btn-icon {
@@ -850,11 +841,6 @@ label {
     margin-bottom: 24px;
 }
 
-
-/* .modal-window-form-checkbox {
-    visibility: hidden;
-} */
-
 .privacy-policy-paragraf {
     font-weight: 400;
     font-size: 12px;
@@ -864,18 +850,10 @@ label {
 }
 
 .privacy-policy-paragraf-link {
-    /* font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.04em; */
     color: var(--iris);
 }
 
 .privacy-policy {
-    /* gap: 8px;
-    width: 360px;
-    height: 16px;
-    margin-top: 10px; */
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -894,15 +872,6 @@ label {
     align-items: center;
     justify-content: center;
 }
-
-
-/* .privacy-policy-icon:checked+.privacy-policy-span {
-    background-color: var(--ocean);
-}
-
-.privacy-policy-icon:checked+.privacy-policy-icon {
-    fill: var(--cloud);
-} */
 
 .modal-window-form-checkbox:checked+.privacy-policy .privacy-policy-span {
     background-color: var(--ocean);
