@@ -475,6 +475,17 @@ body {
     height: 80px;
 }
 
+.footer-form-wrapper-paragraf {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.footer-form-label {}
+
 .footer-form {
     display: flex;
     gap: 24px;
@@ -493,12 +504,12 @@ label {
     align-items: baseline;
 } */
 
-.footer-social-media-input::placeholder {
+.footer-form-input::placeholder {
     color: var(--white);
     size: 12px;
 }
 
-.footer-social-media-input {
+.footer-form-input {
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -510,13 +521,14 @@ label {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
+    gap: 24px;
 }
 
-.footer-social-media-input:focus .footer-form-submit-btn-icon {
+.footer-form-input:focus .footer-form-submit-btn-icon {
     fill: var(--iris);
 }
 
-.footer-social-media-btn {
+.footer-form-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -529,7 +541,7 @@ label {
     min-width: 165px;
     height: 40px;
     font-weight: 500;
-    size: 16px;
+    font size: 16px;
     padding: 8px, 24px;
     gap: 16px;
     border: none;
@@ -539,13 +551,7 @@ label {
 }
 
 .footer-form-submit-btn-icon {
-    position: absolute;
-    fill: var(--white);
     margin-left: 16px;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
