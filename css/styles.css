@@ -835,11 +835,9 @@ label {
     border-color: var(--iris)
 }
 
-
-/* .modal-window-form-textarea::placeholder {
+.modal-window-form-textarea::placeholder {
     color: var(--navy-blue);
-    size: 12px;
-} */
+}
 
 .modal-window-form-div-checkbox {
     margin-bottom: 24px;
