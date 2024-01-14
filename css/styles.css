@@ -65,7 +65,6 @@ body {
     display: flex;
     flex-flow: row-reverse nowrap;
     padding-top: 24px;
-    /* padding-right: 24px; */
 }
 
 .container {
@@ -316,17 +315,6 @@ body {
 .advantages-list-item {
     width: calc((100%-72px)/4);
 }
-
-
-/* .advantages-card-icon {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: var(--cloud);
-border-radius: 4px;
-margin-bottom: 8px;
-} */
 
 .advantages-card-header {
     color: var(--navy-blue);
@@ -1021,13 +1009,12 @@ label {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 768px) {
     .menu-toggle {
         display: none;
     }
     .header-main-cointainer {
         height: 72px;
-        justify-content: space-between;
     }
     .container {
         max-width: 1157px;
@@ -1073,20 +1060,13 @@ label {
         align-items: flex-start;
         width: calc((100% - 72px) / 2);
     }
-    /* .advantages-card-header {
-        text-align: left;
-    } */
     .our-team-list {
         flex-direction: row;
-        /* align-items: center; */
         justify-content: center;
         flex-wrap: wrap;
         column-gap: 20px;
-        width: 70%;
+        max-width: 552px;
         margin: 0 auto;
-    }
-    .customers-list-items {
-        width: 168px;
     }
     .customers-list {
         max-width: 552px;
@@ -1096,27 +1076,22 @@ label {
         justify-content: flex-start;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 70%;
+        max-width: 552px;
         margin: 0 auto;
         column-gap: 40px;
     }
     .footer-form-wrapper {
-        /* display: flex; */
-        /* flex-direction: column; */
         align-items: flex-start;
         width: 453px;
         height: 80px;
     }
     .footer-form {
-        /* display: flex; */
         flex-direction: row;
         justify-content: space-between;
-        /* align-items: center; */
         width: 100%;
         gap: 24px;
     }
     .footer-form-input {
-        /* max-width: 398px; */
         width: 264px;
     }
     .footer-container-logo {
@@ -1130,7 +1105,6 @@ label {
         align-items: flex-start;
     }
     .portfolio-filtr-button-list {
-        /* display: flex; */
         justify-content: center;
         flex-direction: row;
     }
@@ -1161,18 +1135,8 @@ label {
         max-width: none;
         min-width: 1157px;
     }
-    .header-main-cointainer>.header-nav .list,
-    .header-main-cointainer .address {
-        display: flex;
-    }
-    .header-main-cointainer>.header-nav .list {
-        flex-direction: row;
-    }
     .header-main-cointainer .address .list {
         flex-direction: row;
-    }
-    .selected-list-link::after {
-        display: block;
     }
     .address-component {
         font-size: 16px;
@@ -1181,42 +1145,9 @@ label {
         font-weight: 400;
         color: var(--slate);
     }
-    /* .address-component-small {
-        font-size: 20px;
-        line-height: 40px;
-        color: var(--navy-blue);
-    } */
-    .address .list {
-        padding: 0;
-        gap: 10px;
-        margin-right: 15px;
-    }
     .mobile-menu-social-media-list {
-        /* display: flex; */
-        flex-direction: row;
-        /* gap: 56px; */
-        /* padding: 40px; */
-    }
-    /* .mobile-menu-social-media-list-item {
-        list-style: none;
-    } */
-    .advantages-section {
-        padding: 120px 0;
-        display: flex;
         flex-direction: row;
     }
-    /* .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    } */
     .advantages-list,
     .what-are-we-doing-list,
     .our-team-list {
@@ -1224,8 +1155,9 @@ label {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: baseline;
         gap: 24px;
-        width: calc(100% - 72px);
+        max-width: 1128px;
         margin: 0 auto;
     }
     .advantages-list-item {
@@ -1236,27 +1168,18 @@ label {
         align-items: center;
         justify-content: center;
         height: 112px;
+        width: 100%;
         background-color: var(--cloud);
         border-radius: 4px;
         margin-bottom: 8px;
     }
     .advantages-card-header {
-        /* color: var(--navy-blue); */
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
-        /* margin-bottom: 8px; */
     }
-    /* .advantages-card-paragraph {
-        color: var(--slate);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
-    } */
     .what-are-we-doing-section {
         display: flex;
         flex-direction: row;
@@ -1277,9 +1200,6 @@ label {
         align-items: center;
         justify-content: center;
     }
-    .customers-list-items {
-        width: 168px;
-    }
     .customers-list {
         max-width: 1128px;
     }
@@ -1292,22 +1212,16 @@ label {
         margin: 0 auto;
     }
     .footer-form-wrapper {
-        /* display: flex;
-        flex-direction: column; */
         align-items: flex-start;
         width: 453px;
         height: 80px;
     }
     .footer-form {
-        /* display: flex; */
         flex-direction: row;
         justify-content: space-between;
-        /* align-items: center; */
         width: 100%;
-        /* gap: 24px; */
     }
     .footer-form-input {
-        /* max-width: 398px; */
         width: 264px;
     }
     .footer-container-logo {
@@ -1320,22 +1234,10 @@ label {
     .footer-container-social-media {
         align-items: flex-start;
     }
-    .portfolio-filtr-button-list {
-        /* display: flex; */
-        justify-content: center;
-        flex-direction: row;
-    }
     .portfolio-list-item {
-        flex-direction: row;
-        /* flex-wrap: wrap; */
-        /* align-items: center; */
-        justify-content: space-between;
         width: 1128px;
-        gap: 20px;
-        margin: 0 auto;
     }
     .portfolio-list-item-element {
         width: 360px;
-        height: 420px;
     }
 }
