@@ -1014,6 +1014,13 @@ label {
     background-color: var(--ocean)
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .main-heading {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office@2x.jpg');
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1157px) {
     .menu-toggle {
         display: none;
