@@ -20,7 +20,7 @@
 
 html,
 body {
-    width: 100vw;
+    width: 100%;
     min-width: 100%;
     overflow-x: hidden;
 }
@@ -43,6 +43,7 @@ body {
 .header-main-cointainer {
     display: flex;
     justify-content: space-between;
+    height: 72px
 }
 
 .js-menu-container {
@@ -86,7 +87,6 @@ body {
     text-transform: uppercase;
     color: var(--iris);
     text-decoration: none;
-    margin-right: 76px;
     margin: 0 15px;
 }
 
@@ -96,7 +96,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
     padding: 0;
     background-color: transparent;
     cursor: pointer;
@@ -215,7 +214,8 @@ body {
 
 .mobile-menu-social-media-list {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
+    max-width: 328px;
     padding: 40px;
 }
 
@@ -322,7 +322,6 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: left;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -803,7 +802,8 @@ label {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
+    width: 80%;
+    max-width: 408px;
     background: var(--dairy);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
